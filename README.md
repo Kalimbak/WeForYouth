@@ -1,11 +1,12 @@
 # WeForYouth
 This is a project that is being created by the SOLVIT Trainers : 
-       ** BACKEND **
+       
+       **BACKEND**
 - Iyaremye Faustin                          Laravel
 - Rerero Placide                            Laravel        
 - Ukundiwabo Uwera Aline                    Laravel
 
-       ** FRONTEND **
+       **FRONTEND**
 - Usanase Fatuma                            UI/UX Design
 - Kevin Kalimba                             React JS 
 - Mbarndouka Oumarou Marius                 React JS
