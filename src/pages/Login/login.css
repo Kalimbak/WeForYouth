@@ -1,0 +1,59 @@
+.loginsides {
+  display: flex;
+  background-color: rgb(223, 183, 190);
+}
+
+.leftside {
+  width: 30%;
+  height: 800px;
+  /* border-right: 4px solid black; */
+  display: inline-block;
+  background-color: rgb(202, 146, 146);
+  text-align: center;
+}
+.leftside h2 {
+  margin-top: 210px;
+}
+.leftside p {
+  width: 60%;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 30px;
+  padding: 3px 30px;
+}
+
+.signup {
+  margin-top: 20px;
+  background-color: rgb(238, 121, 127);
+  border-radius: 20px;
+  border: 330px;
+  border-radius: 30px;
+  border-bottom: 2px solid rgb(83, 64, 65);
+  height: 30px;
+  width: 150px;
+}
+.rightside {
+  width: 100%;
+
+  /* background-color: red; */
+}
+
+.form{
+    background-color: red;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 400px;
+    justify-content: space-between;
+    border-radius: 30px;
+    
+}
+.form input{
+    display: grid;
+    text-align: center;
+    padding: 3px 4px;
+}
+.password{
+    margin-top: 20px;
+}
