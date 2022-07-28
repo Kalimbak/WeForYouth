@@ -13,6 +13,7 @@ function Home() {
         <div className="image">
           <img src={Child} alt="" />
         </div>
+        <div className="home">
         <div className="support">
           <div className="left">
             <h1> OUR SUPPORT</h1>
@@ -47,6 +48,7 @@ function Home() {
                 <h1> YOUTH UNITY</h1>
                 <p>Upgrading  Quality, Strengthning And Empowerment Of Youth's For Nation Building. Social Awareness Through Seminars And Expert Lectures</p>
             </div>
+        </div>
         </div>
         <div className="mentors">
             <div>
