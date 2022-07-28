@@ -1,0 +1,147 @@
+.signup1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.nav{
+    height: 70px;
+    width: 100%;
+}
+
+.maincenter{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 35rem;
+    width: 50rem;
+    background-color: rgba(229, 178, 178, 0.45);
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.division1{
+    height: 100%;
+    width: 20rem;
+    border-radius: 30px;
+}
+
+.lefsideavatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 12rem;
+    width: 12rem;
+    margin-left: 25%;
+    margin-top: 50%;
+    border-radius: 30px;
+    background-color: #F7D2D2;    
+}
+
+.lefsideavatar img{
+    margin-top: 3rem;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.lefsideavatar span{
+    margin-top: 20px;
+    font-family: 'Lora';
+}
+
+.division2{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-select{
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+}
+
+.com-slect{
+    display: flex;
+    background-color: #F7D2D2;
+    outline: 0;
+    height: 2rem;
+    width: 22rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding: 0 15px;
+}
+
+.formfill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gap {
+    display: flex;
+    height: 2rem;
+    width: 20rem;
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-left: 70px;
+    background-color: #F7D2D2;
+    border-radius: 10px;
+}
+
+.gap input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+
+.division2 p{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 1px;
+    margin-left: 100px;
+}
+
+.subBtn{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+button{
+    background-color: #F8D6D6;
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 36px; 
+    width: 10rem;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.com-slect option{
+    appearance: none;
+    font-family: 'Lora';
+}
+
+.passW{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    width: 20rem;
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-left: 70px;
+    background-color: #F7D2D2;
+    border-radius: 10px;
+}
+
+.passW input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

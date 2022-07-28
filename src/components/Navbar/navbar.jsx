@@ -1,14 +1,15 @@
 import React from 'react'
 import { NavLink as Link } from 'react-router-dom'
 import "./navbar.css"
-import Logo from "../../assets/logo.png"
+// import Logo from "../../assets/logo.png"
+import Group18 from "../../assets/Group18.png"
 import SelectLang from '../selectLanguage'
 
 function Navbar() {
   return (
     <div className='navbar'>
       <div className="logo">
-          <img src={Logo} alt="" />
+          <img src={Group18} alt="" />
       </div>
       <div className="navigations">
           <ul
