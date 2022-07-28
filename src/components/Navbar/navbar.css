@@ -31,8 +31,9 @@
     padding: 10px;
 }
 
-.active {
+.route {
     text-decoration: none;
     color: black;
+    font-family: 'Lora';
 }
 
