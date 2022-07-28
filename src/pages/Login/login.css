@@ -1,6 +1,6 @@
 .loginsides {
   display: flex;
-  background-color: rgb(223, 183, 190);
+  background-color: white;
 }
 
 .leftside {
@@ -8,7 +8,7 @@
   height: 800px;
   /* border-right: 4px solid black; */
   display: inline-block;
-  background-color: rgb(202, 146, 146);
+  background-color: #F7D2D2;
   text-align: center;
 }
 .leftside h2 {
@@ -24,7 +24,7 @@
 
 .signup {
   margin-top: 20px;
-  background-color: rgb(238, 121, 127);
+  background-color: rgb(223, 183, 190);
   border-radius: 20px;
   border: 330px;
   border-radius: 30px;
@@ -39,21 +39,39 @@
 }
 
 .form{
-    background-color: red;
-    width: 30%;
+    background-color: #F7D2D2;
+    width: 40%;
     height: 400px;
     text-align: center;
     margin-top: 200px;
-    margin-left: 400px;
+    margin-left: 350px;
     justify-content: space-between;
     border-radius: 30px;
-    
+
 }
 .form input{
     display: grid;
     text-align: center;
     padding: 3px 4px;
+    height: 40px;
+    width: 300px;
+    background-color: #F7D2D2;
 }
 .password{
     margin-top: 20px;
 }
+.form-data{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.button{
+    background-color: #C58282;
+    margin-right: 70px;
+    margin-top: 30px;
+    height: 40px;
+    width: 287.54px;
+    border-radius: 50px;
+}
+

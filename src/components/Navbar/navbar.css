@@ -6,6 +6,7 @@
 .navbar{
     position: sticky;
     display: flex;
+    background-color: #F7D2D2;
 /* border-top-left-radius: 15px; */
 border-bottom: 4px solid rgba(233, 235, 235, 0.692)
 }

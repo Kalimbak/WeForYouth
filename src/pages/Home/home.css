@@ -3,6 +3,9 @@
   height: 610px;
   margin-left: 120px;
 }
+.home{
+  background-color: #f1d3d3;
+}
 .support {
   align-items: center;
   margin-top: 70px;

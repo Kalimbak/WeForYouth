@@ -33,7 +33,7 @@ function Navbar() {
         </li>
         <li 
         >
-          <Link to="/Login">LOGIN</Link>
+          <Link to="/login">LOGIN</Link>
         </li>
         <div className="">
           <SelectLang />
