@@ -37,3 +37,9 @@
     font-family: 'Lora';
 }
 
+select{
+    background-color: transparent;
+    outline: none;
+    font-family: 'Lora';
+    font-size: 16px;
+}
