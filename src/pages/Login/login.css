@@ -39,7 +39,7 @@
 }
 
 .form{
-    background-color: #F7D2D2;
+    background-color: rgba(229, 178, 178, 0.45);
     width: 40%;
     height: 400px;
     text-align: center;
@@ -75,3 +75,7 @@
     border-radius: 50px;
 }
 
+.reset{
+  text-decoration: none;
+  color: black;
+}

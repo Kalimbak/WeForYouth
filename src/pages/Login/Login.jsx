@@ -1,28 +1,17 @@
-<<<<<<< HEAD
+
 import React from 'react'
 import "./login.css"
 import { Link } from "react-router-dom"
 
-
-=======
-import React from "react";
-import "./login.css";
->>>>>>> login
 function Login() {
 //   const formValidation = () => {};
   return (
     <div className="loginsides">
        
       <div className="leftside">
-<<<<<<< HEAD
          <h2>NEW HERE ?</h2> 
          <p>Sign up and get To Connect With Other Youth</p>
          <Link to="/Signup" ><button className='signup' >SignUp</button></Link>
-=======
-        <h2>NEW HERE ?</h2>
-        <p>Sign up and get To Connect With Other Youth</p>
-        <button className="signup">SignUp</button>
->>>>>>> login
       </div>
 
       <div className="rightside">
@@ -40,7 +29,9 @@ function Login() {
               </div>
               <div>
                 <button className="button">Sign In</button>
+               <Link to="/reset" className='reset'> <p >Reset Password</p></Link>
               </div>
+              
             </div>
           </form>
         </div>
