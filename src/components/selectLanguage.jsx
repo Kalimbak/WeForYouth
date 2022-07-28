@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '../components/Navbar/navbar.css'
 
 const SelectLang = () => {
     const currentLang = localStorage.getItem("Language");
@@ -18,8 +19,8 @@ const SelectLang = () => {
           value={language}
           onChange={(e) => changeLang(e)}
         >
-          <option value="en">English</option>
-          <option value="fr">French</option>
+          <option value="en">ENGLISH</option>
+          <option value="fr">FRENCH</option>
         </select>
       </div>
     )

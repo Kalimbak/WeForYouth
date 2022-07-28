@@ -18,23 +18,23 @@ function Navbar() {
           <li 
         activeclassname="active" 
       >
-          <Link to="/">HOME</Link>
+          <Link className='route' to="/">HOME</Link>
         </li>
         <li 
         >
-          <Link to="/">COMMUNITY</Link>
+          <Link className='route' to="/">COMMUNITY</Link>
         </li>
         <li 
         >
-          <Link to="/">CONTACT US</Link>
+          <Link className='route' to="/">CONTACT US</Link>
         </li>
         <li 
         >
-          <Link to="/">ABOUT US</Link>
+          <Link className='route' to="/">ABOUT US</Link>
         </li>
         <li 
         >
-          <Link to="/Login">LOGIN</Link>
+          <Link className='route'to="/Login">LOGIN</Link>
         </li>
         <div className="">
           <SelectLang />
