@@ -2,13 +2,14 @@
 import React from 'react'
 import "./login.css"
 import { Link } from "react-router-dom"
+// import Hands from "../../assets/hands.jpg"
 
 function Login() {
 //   const formValidation = () => {};
   return (
     <div className="loginsides">
        
-      <div className="leftside">
+      <div className="leftside" >
          <h2>NEW HERE ?</h2> 
          <p>Sign up and get To Connect With Other Youth</p>
          <Link to="/Signup" ><button className='signup' >SignUp</button></Link>

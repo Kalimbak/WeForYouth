@@ -5,7 +5,8 @@
 }
 
 .leftside {
-  width: 30%;
+
+  width: 50%;
   height: 800px;
   display: inline-block;
   background-color: #F7D2D2;
@@ -31,6 +32,7 @@
   border-bottom: 2px solid rgb(83, 64, 65);
   height: 30px;
   width: 150px;
+  margin-left: -25px;
 }
 .rightside {
   width: 100%;
@@ -42,7 +44,7 @@
     height: 400px;
     text-align: center;
     margin-top: 200px;
-    margin-left: 350px;
+    margin-left: 300px;
     justify-content: space-between;
     border-radius: 30px;
 
@@ -54,6 +56,7 @@
     height: 40px;
     width: 300px;
     background-color: #F7D2D2;
+    border-radius: 30px;
 }
 .password{
     margin-top: 20px;
@@ -66,10 +69,10 @@
 
 .button{
     background-color: #C58282;
-    margin-right: 70px;
+    margin-left: -50px;
     margin-top: 30px;
     height: 40px;
-    width: 287.54px;
+    width: 200px;
     border-radius: 50px;
 }
 
