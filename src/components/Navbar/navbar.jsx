@@ -1,11 +1,13 @@
 import React from 'react'
 import { NavLink as Link } from 'react-router-dom'
 import "./navbar.css"
+import { useTranslation } from 'react-i18next'
 // import Logo from "../../assets/logo.png"
 import Group18 from "../../assets/Group18.png"
 import SelectLang from '../selectLanguage'
 
 function Navbar() {
+  const t = useTranslation;
   return (
     <div className='navbar'>
       <div className="logo">
@@ -22,7 +24,7 @@ function Navbar() {
         </li>
         <li 
         >
-          <Link className='route' to="/">COMMUNITY</Link>
+          <Link className='route' to="/">{t(navbar.Community)}</Link>
         </li>
         <li 
         >
