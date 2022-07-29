@@ -6,7 +6,7 @@ import './reset.css'
 function reset() {
   return (
     <div className='resetPage'>
-        <div className=''>
+        <div className='re'>
             <Navbar />
         </div>
         <div className='BodyReset'>
