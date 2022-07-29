@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink as Link } from 'react-router-dom'
 import "./navbar.css"
-// import Logo from "../../assets/logo.png"
 import Group18 from "../../assets/Group18.png"
 import SelectLang from '../selectLanguage'
 
