@@ -1,12 +1,12 @@
 .loginsides {
   display: flex;
   background-color: white;
+  font-family: 'Lora';
 }
 
 .leftside {
   width: 30%;
   height: 800px;
-  /* border-right: 4px solid black; */
   display: inline-block;
   background-color: #F7D2D2;
   text-align: center;
@@ -34,8 +34,6 @@
 }
 .rightside {
   width: 100%;
-
-  /* background-color: red; */
 }
 
 .form{

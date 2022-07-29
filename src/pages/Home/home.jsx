@@ -1,22 +1,26 @@
 import React from "react";
 import Navbar from "../../components/Navbar/navbar";
-import Child from "../../assets/image1.png";
+// import Child from "../../assets/image1.png";
 import People from "../../assets/image2.png";
+import Youth from '../../assets/3youth.jpg'
 import "./home.css";
 import Footer from "../../components/footer/Footer";
 
 function Home() {
   return (
-    <div>
+    <div className="">
+      <div className="
+      re">
       <Navbar />
+      </div>
       <div className="container">
         <div className="image">
-          <img src={Child} alt="" />
+          <img src={Youth} alt="" />
         </div>
         <div className="home">
         <div className="support">
           <div className="left">
-            <h1> OUR SUPPORT</h1>
+            <h1>OUR SUPPORT</h1>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -29,7 +33,7 @@ function Home() {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <p>OUR INITIATIVE FOR THE</p>
-            <p className="one"> &nbsp;&nbsp;&nbsp;RWANDAN YOUTH</p>
+            <p className="one"> &nbsp;&nbsp;&nbsp;&nbsp;RWANDAN YOUTH</p>
           </div>
           <div className="image2">
             <img src={People} alt="" />
@@ -46,7 +50,7 @@ function Home() {
             </div>
              <div>
                 <h1> YOUTH UNITY</h1>
-                <p>Upgrading  Quality, Strengthning And Empowerment Of Youth's For Nation Building. Social Awareness Through Seminars And Expert Lectures</p>
+                <p>Upgrading  Quality, `Strengthning And Empowerment Of Youth's For Nation Building. Social Awareness Through Seminars And Expert Lectures</p>
             </div>
         </div>
         </div>
